@@ -97,7 +97,7 @@ namespace DotnetIteration
         }
 
 
-        [Fact(Skip = "Remove to run test")]
+        [Fact]
         public void FindTheNeedleIndex()
         {
             var data = new List<string> { "one", "time", "there was a needle at", "the market" };

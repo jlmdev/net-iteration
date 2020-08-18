@@ -129,7 +129,8 @@ namespace DotnetIteration
         // 
         public static int FindTheNeedleIndex(List<string> data)
         {
-            throw new System.NotImplementedException();
+            var indexOfNeedle = data.FindIndex(sample => sample.Contains("needle"));
+            return indexOfNeedle;
         }
 
 
