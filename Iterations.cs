@@ -94,7 +94,8 @@ namespace DotnetIteration
         // 
         public static IEnumerable<string> BestMovieOfTheYear(List<Movie> data, int year)
         {
-            throw new System.NotImplementedException();
+            var movieNames = data.Where(movie => movie.Year == year && movie.Score >= 90).Select(movie => movie.Name);
+            return movieNames;
         }
 
 
