@@ -141,7 +141,8 @@ namespace DotnetIteration
         // 
         public static bool SomeoneToLove(List<string> data)
         {
-            throw new System.NotImplementedException();
+            var findMe = data.Any(stringCount => stringCount.Length == 4);
+            return findMe;
         }
     }
 }
