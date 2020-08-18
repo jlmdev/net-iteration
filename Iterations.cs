@@ -117,7 +117,8 @@ namespace DotnetIteration
         // 
         public static string FindTheNeedle(List<string> data)
         {
-            throw new System.NotImplementedException();
+            var containsNeedle = data.First(sample => sample.Contains("needle"));
+            return containsNeedle;
         }
 
 

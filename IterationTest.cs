@@ -88,7 +88,7 @@ namespace DotnetIteration
             Assert.False(Iteration.EveryoneIsOdd(falseData));
         }
 
-        [Fact(Skip = "Remove to run test")]
+        [Fact]
         public void FindTheNeedle()
         {
             var data = new List<string> { "one", "time", "there was a needle at", "the market" };
