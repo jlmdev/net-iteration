@@ -26,7 +26,8 @@ namespace DotnetIteration
         //
         public static IEnumerable<string> Yelling(List<string> words)
         {
-            throw new System.NotImplementedException();
+            var yellingWords = words.Select(word => word.ToUpper());
+            return yellingWords;
         }
 
 
@@ -37,7 +38,8 @@ namespace DotnetIteration
         // 
         public static IEnumerable<int> Double(List<int> numbers)
         {
-            throw new System.NotImplementedException();
+            var doubledNumbers = numbers.Select(number => number * 2);
+            return doubledNumbers;
         }
 
 
@@ -49,7 +51,8 @@ namespace DotnetIteration
         // 
         public static IEnumerable<string> StringyIndexes(List<string> data)
         {
-            throw new System.NotImplementedException();
+            var listOfIndexes = data.Select((item, index) => $"{item} is at index {index}");
+            return listOfIndexes;
         }
 
 
