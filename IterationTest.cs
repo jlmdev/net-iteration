@@ -37,7 +37,7 @@ namespace DotnetIteration
 
 
 
-        [Fact(Skip = "Remove to run test")]
+        [Fact]
         public void OnlyTheEvenSurvive()
         {
             var data = new List<int> { 42, 50, 100, 5, -43, 17, 44 };
