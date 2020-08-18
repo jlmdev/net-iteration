@@ -46,7 +46,7 @@ namespace DotnetIteration
         }
 
 
-        [Fact(Skip = "Remove to run test")]
+        [Fact]
         public void OnlyTheEvenIndexedSurvive()
         {
             var data = new List<int> { 31, 67, 64, 96, 14, 24, 43, 51, 48, 80, 58, 43, 64, 84, 98, 99, 69, 93, 5, 32, 29, 4, 28, 18, 86, 22, 20, 74, 35, 27, 85, 79, 65, 32, 56, 94, 93, 20, 29, 22, 72 };

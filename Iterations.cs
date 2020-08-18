@@ -74,7 +74,8 @@ namespace DotnetIteration
         // 
         public static IEnumerable<int> OnlyTheEvenIndexedSurvive(List<int> data)
         {
-            throw new System.NotImplementedException();
+            var evenIndex = data.Where((number, index) => index % 2 == 0);
+            return evenIndex;
         }
 
 
