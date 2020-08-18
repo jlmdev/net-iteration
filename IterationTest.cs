@@ -79,7 +79,7 @@ namespace DotnetIteration
 
 
 
-        [Fact(Skip = "Remove to run test")]
+        [Fact]
         public void EveryoneIsOdd()
         {
             var trueData = new List<int> { 9, 15, 27, 101, 33 };

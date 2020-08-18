@@ -105,7 +105,8 @@ namespace DotnetIteration
         // 
         public static bool EveryoneIsOdd(List<int> data)
         {
-            throw new System.NotImplementedException();
+            var allOdd = data.All(number => number % 2 != 0);
+            return allOdd;
         }
 
 
